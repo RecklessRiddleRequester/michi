@@ -11,7 +11,7 @@ Wenn du es schaffst, wirst du eine angemessene Belohnung erhalten!
 2. Öffne die Tests in `src/test/java/SuperImportantUnitTests.java` mit einem Texteditor deiner Wahl und stelle sicher, dass sie erfolgreich durchlaufen.
 Du kannst die Tests ausführen, indem du auf der Kommandozeile `mvnw.cmd clean test` eingibst.
 
-Wenn die Tests nicht erfolgreich waren, wird dir auf der Kommandozeile angezeigt, welche Tests noch kaputt sind. Damit unsere Testgeheimnisse nicht in der Code Base für fremde (und für dich :wink:) zu lesen sind, sind sie codiert. Wundere dich also nicht über die Zeichenketten bei den Assertions. Wenn ein Test fehlschlägt, sieht in etwa so aus:
+Wenn die Tests nicht erfolgreich waren, wird dir auf der Kommandozeile angezeigt, welche Tests noch kaputt sind. Damit unsere Testgeheimnisse nicht in der Code Base für Fremde (und für dich :wink:) zu lesen sind, sind sie codiert. Wundere dich also nicht über die komische Zeichenketten bei den Assertions. Wenn ein Test fehlschlägt, dann sieht das auf der Kommandozeile in etwa so aus:
 ```shell
 [INFO] Results:
 [INFO] 
