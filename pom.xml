@@ -19,7 +19,7 @@
 
     <properties>
         <!-- START: Basic project configuration -->
-        <java.version>8</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>${character.encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${character.encoding}</project.reporting.outputEncoding>
         <!-- END: Basic project configuration -->
