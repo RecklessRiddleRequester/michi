@@ -8,7 +8,7 @@ Wenn du es schaffst, wirst du eine angemessene Belohnung erhalten!
 
 ## Aufgabe
 1. Lade dieses [Repository hier herunter](https://github.com/RecklessRiddleRequester/michi/archive/refs/heads/main.zip) und entpacke es
-2. Lade dir [Java hier herunter]([https://download.java.net/openjdk/jdk21/ri/openjdk-21+35_windows-x64_bin.zip](https://aka.ms/download-jdk/microsoft-jdk-21.0.3-windows-x64.msi) und installiere es
+2. Lade dir [Java hier herunter](https://aka.ms/download-jdk/microsoft-jdk-21.0.3-windows-x64.msi) und installiere es
 3. Öffne die Tests in `src/test/java/SuperImportantUnitTests.java` mit einem Texteditor deiner Wahl und stelle sicher, dass sie erfolgreich durchlaufen.
 Du kannst die Tests ausführen, indem du auf der Kommandozeile `.\mvnw.cmd clean install` eingibst.
 
