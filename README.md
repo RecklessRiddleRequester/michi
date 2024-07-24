@@ -9,7 +9,25 @@ Wenn du es schaffst, wirst du eine angemessene Belohnung erhalten!
 ## Aufgabe
 1. Lade dir Java 21 hier herunter:
 2. Öffne die Tests in `src/test/java/SuperImportantUnitTests.java` mit einem Texteditor deiner Wahl und stelle sicher, dass sie erfolgreich durchlaufen.
-Du kannst die Tests ausführen, indem du auf der Kommandozeile `mvnw.cmd clean test` eingibst. Wenn deine Tests erfolgreich waren, sollte das Ende der Ausgabe auf deiner Kommandozeile in etwa so aussehen:
+Du kannst die Tests ausführen, indem du auf der Kommandozeile `mvnw.cmd clean test` eingibst.
+
+Wenn die Tests nicht erfolgreich waren, wird dir auf der Kommandozeile angezeigt, welche Tests noch kaputt sind. Damit unsere Testgeheimnisse nicht in der Code Base für fremde (und für dich :wink:) zu lesen sind, sind sie codiert. Wundere dich also nicht über die Zeichenketten bei den Assertions. Wenn ein Test fehlschlägt, sieht in etwa so aus:
+```shell
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SuperImportantUnitTests.test:16 
+expected: "cmljaHRpZ2UgQW50d29ydA=="
+ but was: "ZmFsc2NoZSBBbnR3b3J0"
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+```
+
+Wenn deine Tests erfolgreich waren, sollte das Ende der Ausgabe auf deiner Kommandozeile in etwa so aussehen:
 ```shell
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
