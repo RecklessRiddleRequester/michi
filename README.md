@@ -37,4 +37,4 @@ Wenn die Tests erfolgreich waren, sollte das Ende der Ausgabe auf deiner Kommand
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 ```
-4. Wenn du es schaffst unser Projekt zu retten, kannst du deine Belohnung durch das Aufrufen von `.\mvnw.cmd clean install` abholen. Die Belohnung wird in der Datei `/target/riddle-solution/success.txt` erscheinen.
+4. Wenn du es schaffst unser Projekt zu retten, kannst du deine Belohnung durch das Aufrufen von `.\mvnw.cmd clean install` abholen. Die Belohnung wird in der Datei `target/riddle-solution/success.txt` erscheinen.
