@@ -8,7 +8,7 @@ Wenn du es schaffst, wirst du eine angemessene Belohnung erhalten! 💰
 
 ## Aufgabe
 1. Lade dieses [Repository hier herunter](https://github.com/RecklessRiddleRequester/michi/archive/refs/heads/main.zip) und entpacke es.
-2. (diesen Schritt hat dein Guide bereits für dich erledigt :blush:) Lade dir [Java hier herunter](https://aka.ms/download-jdk/microsoft-jdk-21.0.3-windows-x64.msi) und installiere es.
+2. (diesen Schritt hat dein Guide bereits für dich erledigt :blush:) ~~Lade dir [Java hier herunter](https://aka.ms/download-jdk/microsoft-jdk-21.0.3-windows-x64.msi) und installiere es.~~
 3. Öffne die Tests in `src/test/java/SuperImportantUnitTests.java` mit einem Texteditor deiner Wahl und versuche sie zu reparieren.
 
 Du kannst die Tests ausführen, indem du den Hauptordner `michi-main` in einer Kommandozeile öffnest und den Befehl `.\mvnw.cmd clean install` eingibst.
